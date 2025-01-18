@@ -46,22 +46,22 @@ export default function Stopwatch() {
             justifyContent: "center",
             alignItems: "center",
             backgroundColor: "#f5f5f5",
-            paddingTop: 50, // Adds space at the top
+            paddingTop: 50, 
         },
         timeText: {
             fontSize: 48,
             fontWeight: "bold",
-            marginBottom: 40, // Adds space between timer and buttons
+            marginBottom: 40, 
         },
         buttonContainer: {
             flexDirection: "row",
             justifyContent: "space-around",
-            width: "80%", // Makes the button layout proportional to the screen width
+            width: "80%", 
             marginTop: 20,
         },
         buttonWrapper: {
             flex: 1,
-            marginHorizontal: 5, // Adds spacing between buttons
+            marginHorizontal: 5, 
         },
         startButton: {
             backgroundColor: "green",
